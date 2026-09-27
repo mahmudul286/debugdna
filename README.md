@@ -151,3 +151,7 @@ and the `DiagnosticReport` remains valid without `graniteExplanation`.
 | 10 | Developer UI | ⏳ Pending |
 | 11 | Testing pass | ⏳ Pending |
 | 12 | Bob sessions + README finalization | ⏳ Pending |
+
+## Live Demo
+
+https://debugdna.onrender.com/
