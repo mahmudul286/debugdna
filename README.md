@@ -89,7 +89,7 @@ npm run typecheck
 7. Review the **Repair Suggestion** — per-signal source fragments restored.
 8. Click **Verify Repair** — pipeline re-runs against the repaired version.
 9. Review the **Verification Badge** — green = all signals restored.
-10. View the **Final Report** — severity HIGH, 5/7 signals restored.
+10. View the **Final Report** — severity HIGH, 5/5 previously lost signals restored.
 
 ---
 
@@ -140,17 +140,17 @@ and the `DiagnosticReport` remains valid without `graniteExplanation`.
 | Sub-Task | Description | Status |
 |---|---|---|
 | 1 | Project Scaffold | ✅ Done |
-| 2 | Synthetic App — Baseline | ⏳ Pending |
-| 3 | Synthetic App — Changed | ⏳ Pending |
-| 4 | Analyzer: types + diff-scanner + signal-extractor | ⏳ Pending |
-| 5 | Analyzer: evidence-collector + failure-runner | ⏳ Pending |
-| 6 | Analyzer: comparator + repair-suggester | ⏳ Pending |
-| 7 | Analyzer: verifier + report-builder | ⏳ Pending |
+| 2 | Synthetic App — Baseline | ✅ Complete |
+| 3 | Synthetic App — Changed | ✅ Complete |
+| 4 | Analyzer: types + diff-scanner + signal-extractor | ✅ Complete |
+| 5 | Analyzer: evidence-collector + failure-runner | ✅ Complete |
+| 6 | Analyzer: comparator + repair-suggester | ✅ Complete |
+| 7 | Analyzer: verifier + report-builder | ✅ Complete |
 | 8 | Granite explainer | ✅ Done |
-| 9 | Next.js API route | ⏳ Pending |
-| 10 | Developer UI | ⏳ Pending |
-| 11 | Testing pass | ⏳ Pending |
-| 12 | Bob sessions + README finalization | ⏳ Pending |
+| 9 | Next.js API route | ✅ Complete |
+| 10 | Developer UI | ✅ Complete |
+| 11 | Testing pass | ✅ Complete |
+| 12 | Bob sessions + README finalization | ✅ Complete |
 
 ## Live Demo
 
